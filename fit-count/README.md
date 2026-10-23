@@ -14,13 +14,16 @@ This case study maps one count, as captured on the [FIT Count field recording fo
   - whether the patch sits within a larger patch of the same flower, within mixed flowers, or is isolated
 - **Count:** for exactly 10 minutes, starting at a recorded time (British Summer Time), every insect that sits on or lands on the target flowers is counted, each individual once. Insects are tallied into ten groups:
 
-  | Group | Group |
-  |---|---|
-  | Bumblebees | Other flies |
-  | Honeybees | Butterflies and moths |
-  | Solitary bees | Beetles (more than 3 mm) |
-  | Wasps (including ichneumons) | Small insects (less than 3 mm) |
-  | Hoverflies | Other insects (including any the recorder is unsure of) |
+  1. Bumblebees
+  2. Honeybees
+  3. Solitary bees
+  4. Wasps (including ichneumon wasps)
+  5. Hoverflies (including 'non-typical' hoverflies)
+  6. Other flies
+  7. Butterflies and moths
+  8. Beetles (larger than 3 mm)
+  9. Small insects (such as pollen beetles) less than 3 mm long
+  10. Other insects (including any the recorder is unsure of)
 
   Spiders and caterpillars are not counted.
 - **Weather:** sky (three classes), whether the patch was in sun (three classes) and wind (three classes).
