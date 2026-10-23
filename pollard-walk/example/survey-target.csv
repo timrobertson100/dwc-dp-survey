@@ -1,0 +1,3 @@
+surveyTarget_pk,surveyTargetID,surveyTargetDescription,isSurveyTargetFullyReported,abundanceCap,surveyTargetRemarks
+ST-UKBMS-BOX-BOTH-SIDES,ST-UKBMS-BOX-BOTH-SIDES,Adult butterflies (including skippers) within 2.5 m either side of the transect line and 5 m ahead.,true,,
+ST-UKBMS-BOX-ONE-SIDE,ST-UKBMS-BOX-ONE-SIDE,Adult butterflies (including skippers) within 5 m on one side of the transect line and 5 m ahead.,true,,

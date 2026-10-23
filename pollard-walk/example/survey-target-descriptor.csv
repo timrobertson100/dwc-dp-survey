@@ -1,0 +1,9 @@
+surveyTarget_fk,surveyTargetType,surveyTargetTypeIRI,surveyTargetTypeSource,surveyTargetValue,surveyTargetValueIRI,surveyTargetValueSource,surveyTargetUnit,surveyTargetUnitIRI,surveyTargetUnitSource,includeOrExclude
+ST-UKBMS-BOX-BOTH-SIDES,taxon,,,Papilionoidea,,,,,,include
+ST-UKBMS-BOX-BOTH-SIDES,lifeStage,,,adult,,,,,,include
+ST-UKBMS-BOX-BOTH-SIDES,"maximum perpendicular distance from transect line, either side",,,2.5,,,m,,,include
+ST-UKBMS-BOX-BOTH-SIDES,maximum distance ahead of recorder,,,5,,,m,,,include
+ST-UKBMS-BOX-ONE-SIDE,taxon,,,Papilionoidea,,,,,,include
+ST-UKBMS-BOX-ONE-SIDE,lifeStage,,,adult,,,,,,include
+ST-UKBMS-BOX-ONE-SIDE,"maximum perpendicular distance from transect line, one side only",,,5,,,m,,,include
+ST-UKBMS-BOX-ONE-SIDE,maximum distance ahead of recorder,,,5,,,m,,,include

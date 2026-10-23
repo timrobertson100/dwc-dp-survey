@@ -7,7 +7,7 @@ First understand:
 
 Second, read all existing mappings from the repository to get a sense of how others are done.
 
-Third, read the protocol's own primary documentation (field instructions, recording forms). Base the mapping on what the protocol actually records, cite it, and flag anything that is assumed rather than documented.
+Third, read the protocol's own primary documentation (field instructions, recording forms, and FAQs or data-entry guides, which often answer data questions such as how zeros, incomplete visits and repeat visits are handled). Base the mapping on what the protocol actually records, cite it, and flag anything that is assumed rather than documented.
 
 The goal is to provide a structural mapping in DwC-DP that organises the data faithfully in a way that satisfies the intent of the survey.
 
@@ -47,6 +47,10 @@ Verify every table and field name against the ratified JSON schemas; do not rely
 - When a protocol classifies counts into disjoint categories that are part of the design (e.g. distance bands), consider one SurveyTarget per category so that non-detection can be inferred per category.
 - Use one Occurrence per count at the finest source grain, with `organismQuantity`. Don't create one Occurrence or Organism per individual, and don't create `notDetected` rows the source doesn't contain.
 - When recording categories are not clean taxa (e.g. "solitary bees", "other flies", "other insects / unsure"), define each with include/exclude descriptors on its SurveyTarget. Give the Occurrence the smallest taxon that contains the group as `scientificName`, with the label in `verbatimIdentification`. Say clearly that the name alone is misleading without the target, and set `isLeastSpecificTargetCategoryQuantityInclusive = false` when a broad residual group doesn't include the others.
+- The dimensions of a fixed detection zone (e.g. a transect "recording box") are SurveyTarget descriptors. Zones of a different shape or size need separate target rows. The area goes in `survey.totalAreaSampledValue`.
+- Recorded aggregates of hard-to-separate species (e.g. "Small / Essex skipper") use the smallest containing taxon plus `identificationRemarks`. Check whether the aggregate includes or excludes the separated records when setting `isLeastSpecificTargetCategoryQuantityInclusive`.
+- Sightings the protocol puts outside the count (outside the zone, in notes) go on a separate child Event with no Survey, so they can't be read as part of the count.
+- Keep values the recorder wrote down, even summaries such as "average sunshine", as recorded. Don't publish values the scheme estimates later (e.g. counts for missed weeks) as observations.
 - Organisms that define the sampling unit rather than being detected (e.g. the flower being watched, a host plant) are Occurrences without a `surveyTarget_fk`. Link the detected organisms to them with `organism-interaction` (e.g. `visited flower of`), and flag them through `hasNonTargetTaxa`.
 - Keep source codes verbatim in assertions, with their meanings in the referenced `protocol`.
 - Keep locations as given (`verbatimCoordinates`, `verbatimSRS`). Derive decimal coordinates with a `coordinateUncertaintyInMeters` that reflects the source precision (e.g. a grid square's half-diagonal). Include the time zone in `eventTime` when the protocol specifies one.
