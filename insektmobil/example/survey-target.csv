@@ -1,0 +1,2 @@
+surveyTarget_pk,surveyTargetID,surveyTargetDescription,isSurveyTargetFullyReported,abundanceCap,surveyTargetRemarks
+ST-CARNET-INSECTS,ST-CARNET-INSECTS,Flying insects caught in the car net and detected as ASVs by COI (fwh) metabarcoding.,true,,"Every ASV retained by the bioinformatics pipeline is reported. Detection is biased by net height, primer affinity and reference database coverage, so non-detection is weak evidence of absence."

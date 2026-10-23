@@ -1,0 +1,5 @@
+identification_fk,taxonSortOrder,taxonID,scientificNameID,geologicalClassificationCodes,geologicalMaterialNames,scientificName,scientificNameAuthorship,vernacularName,taxonRank,classificationSystem,kingdom,phylum,class,order,family,subfamily,genus,genericName,subgenus,infragenericEpithet,specificEpithet,infraspecificEpithet,cultivarEpithet,nameAccordingTo,nomenclaturalCode,nomenclaturalStatus,namePublishedIn,namePublishedInYear
+R0001-2018-06-12-MIDDAY-A5-ID,1,,,,,Lucilia caesar,,,species,,,,,,,,,,,,,,,,,,,
+R0001-2018-06-12-MIDDAY-A5-ID,2,,,,,Lucilia illustris,,,species,,,,,,,,,,,,,,,,,,,
+R0001-2018-06-12-EVENING-A5-ID,1,,,,,Lucilia caesar,,,species,,,,,,,,,,,,,,,,,,,
+R0001-2018-06-12-EVENING-A5-ID,2,,,,,Lucilia illustris,,,species,,,,,,,,,,,,,,,,,,,

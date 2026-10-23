@@ -1,0 +1,149 @@
+{
+  "profile": "http://rs.tdwg.org/dwc-dp/1.0/dwc-dp-profile.json",
+  "name": "insektmobil-illustrative-example",
+  "title": "Car net sampling with DNA metabarcoding: illustrative DwC-DP example",
+  "description": "Fictitious data for one route on one day (two drives), illustrating the structural mapping in ../README.md.",
+  "licenses": [
+    {
+      "name": "CC0-1.0",
+      "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  ],
+  "resources": [
+    {
+      "name": "agent",
+      "path": "agent.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "http://rs.tdwg.org/dwc-dp/1.0/table-schemas/agent.json"
+    },
+    {
+      "name": "protocol",
+      "path": "protocol.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "http://rs.tdwg.org/dwc-dp/1.0/table-schemas/protocol.json"
+    },
+    {
+      "name": "event",
+      "path": "event.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "http://rs.tdwg.org/dwc-dp/1.0/table-schemas/event.json"
+    },
+    {
+      "name": "event-assertion",
+      "path": "event-assertion.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "http://rs.tdwg.org/dwc-dp/1.0/table-schemas/event-assertion.json"
+    },
+    {
+      "name": "survey",
+      "path": "survey.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "http://rs.tdwg.org/dwc-dp/1.0/table-schemas/survey.json"
+    },
+    {
+      "name": "survey-target",
+      "path": "survey-target.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "http://rs.tdwg.org/dwc-dp/1.0/table-schemas/survey-target.json"
+    },
+    {
+      "name": "survey-target-descriptor",
+      "path": "survey-target-descriptor.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "http://rs.tdwg.org/dwc-dp/1.0/table-schemas/survey-target-descriptor.json"
+    },
+    {
+      "name": "survey-survey-target",
+      "path": "survey-survey-target.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "http://rs.tdwg.org/dwc-dp/1.0/table-schemas/survey-survey-target.json"
+    },
+    {
+      "name": "material",
+      "path": "material.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "http://rs.tdwg.org/dwc-dp/1.0/table-schemas/material.json"
+    },
+    {
+      "name": "molecular-protocol",
+      "path": "molecular-protocol.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "http://rs.tdwg.org/dwc-dp/1.0/table-schemas/molecular-protocol.json"
+    },
+    {
+      "name": "nucleotide-sequence",
+      "path": "nucleotide-sequence.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "http://rs.tdwg.org/dwc-dp/1.0/table-schemas/nucleotide-sequence.json"
+    },
+    {
+      "name": "nucleotide-analysis",
+      "path": "nucleotide-analysis.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "http://rs.tdwg.org/dwc-dp/1.0/table-schemas/nucleotide-analysis.json"
+    },
+    {
+      "name": "occurrence",
+      "path": "occurrence.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "http://rs.tdwg.org/dwc-dp/1.0/table-schemas/occurrence.json"
+    },
+    {
+      "name": "identification",
+      "path": "identification.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "http://rs.tdwg.org/dwc-dp/1.0/table-schemas/identification.json"
+    },
+    {
+      "name": "identification-taxon",
+      "path": "identification-taxon.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "http://rs.tdwg.org/dwc-dp/1.0/table-schemas/identification-taxon.json"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+surveyTarget_fk,surveyTargetType,surveyTargetTypeIRI,surveyTargetTypeSource,surveyTargetValue,surveyTargetValueIRI,surveyTargetValueSource,surveyTargetUnit,surveyTargetUnitIRI,surveyTargetUnitSource,includeOrExclude
+ST-CARNET-INSECTS,taxon,,,Insecta,,,,,,include
+ST-CARNET-INSECTS,behavior,,,in flight,,,,,,include

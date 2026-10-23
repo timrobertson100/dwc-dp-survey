@@ -1,0 +1,7 @@
+assertionID,event_fk,verbatimAssertionType,assertionType,assertionTypeIRI,assertionTypeSource,assertionMadeDate,assertionEffectiveDate,assertionValue,assertionValueIRI,assertionValueSource,assertionUnit,assertionUnitIRI,assertionUnitSource,assertionError,assertionBy,assertionBy_fk,assertionByID,assertionProtocols,assertionProtocol_fk,assertionReferences,assertionRemarks
+,R0001-2018-06-12,,dominant land cover,,,,,farmland,,,,,,,,AG-NHMD,,,P-LANDCOVER,,
+,R0001-2018-06-12,,biogeographic region,,,,,Funen,,,,,,,,AG-NHMD,,,P-LANDCOVER,,
+,R0001-2018-06-12-MIDDAY,,temperature class,,,,,20-25,,,°C,,,,,AG-VOL-0001,,,P-CARNET,,
+,R0001-2018-06-12-MIDDAY,,wind class,,,,,Light breeze 1.6-3.3 m/s,,,,,,,,AG-VOL-0001,,,P-CARNET,,
+,R0001-2018-06-12-EVENING,,temperature class,,,,,15-20,,,°C,,,,,AG-VOL-0001,,,P-CARNET,,
+,R0001-2018-06-12-EVENING,,wind class,,,,,Light air 0.3-1.5 m/s,,,,,,,,AG-VOL-0001,,,P-CARNET,,

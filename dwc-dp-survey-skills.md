@@ -7,7 +7,7 @@ First understand:
 
 Second, read all existing mappings from the repository to get a sense of how others are done.
 
-Third, read the protocol's own primary documentation (field instructions, recording forms, and FAQs or data-entry guides, which often answer data questions such as how zeros, incomplete visits and repeat visits are handled). Base the mapping on what the protocol actually records, cite it, and flag anything that is assumed rather than documented.
+Third, read the protocol's own primary documentation (field instructions, recording forms, and FAQs or data-entry guides, which often answer data questions such as how zeros, incomplete visits and repeat visits are handled). If a paper leaves out method detail, check whether the authors published the data (e.g. on GBIF): the dataset's metadata and records often fill the gaps and show how the data are actually structured. Base the mapping on what the protocol actually records, cite it, and flag anything that is assumed rather than documented.
 
 The goal is to provide a structural mapping in DwC-DP that organises the data faithfully in a way that satisfies the intent of the survey.
 
@@ -52,6 +52,14 @@ Verify every table and field name against the ratified JSON schemas; do not rely
 - Sightings the protocol puts outside the count (outside the zone, in notes) go on a separate child Event with no Survey, so they can't be read as part of the count.
 - Keep values the recorder wrote down, even summaries such as "average sunshine", as recorded. Don't publish values the scheme estimates later (e.g. counts for missed weeks) as observations.
 - Organisms that define the sampling unit rather than being detected (e.g. the flower being watched, a host plant) are Occurrences without a `surveyTarget_fk`. Link the detected organisms to them with `organism-interaction` (e.g. `visited flower of`), and flag them through `hasNonTargetTaxa`.
+- Physical samples are `material`: a bulk sample has `collectionEvent_fk` set to the sampling Event, and derived material (e.g. a DNA extract) has `derivedFromMaterialEntity_fk`. Properties of the whole sample, such as biomass, go on the material (`measuredMassInGrams`), not on Occurrences.
+- For DNA metabarcoding:
+  - use one Occurrence per sample × ASV
+  - put read counts in `nucleotide-analysis` (not `organismQuantity`), and set `isAbundanceReported = false`
+  - link each Occurrence to its analysis and sequence through an `identification` row (`identificationType = nucleotideAnalysis`)
+  - accept names at the rank the match supports, and use `taxonFormula` with `identification-taxon` for ambiguous matches
+  - use one `molecular-protocol` row per extract (it is a sample-level record)
+- Values derived later by the researchers (e.g. GIS land cover) can be assertions, but give them their own protocol and `assertionBy` so they aren't mistaken for field observations.
 - Keep source codes verbatim in assertions, with their meanings in the referenced `protocol`.
 - Keep locations as given (`verbatimCoordinates`, `verbatimSRS`). Derive decimal coordinates with a `coordinateUncertaintyInMeters` that reflects the source precision (e.g. a grid square's half-diagonal). Include the time zone in `eventTime` when the protocol specifies one.
 - Don't invent a parent Event for independent records just to have a hierarchy.
@@ -59,5 +67,7 @@ Verify every table and field name against the ratified JSON schemas; do not rely
 ## Example packages
 
 Write CSVs with all schema columns in schema order: the schemas match fields by position. Mark example data as illustrative.
+
+Also publish the package as `example.zip` next to the `example/` folder, containing just the files at the top level (e.g. `zip -X -j -D example.zip example/*`). Re-create it whenever the example changes.
 
 Validate with `frictionless validate datapackage.json`. Frictionless reports an error for any table that a schema's foreign key points to but the package doesn't include (e.g. `provenance`, `organism`), even if the key is never used. To validate, add empty copies of those tables (header row only) in a temporary copy of the package. Don't commit them, and don't describe this workaround in the case study README.
