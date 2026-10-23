@@ -1,0 +1,3 @@
+assertionID,occurrence_fk,verbatimAssertionType,assertionType,assertionTypeIRI,assertionTypeSource,assertionMadeDate,assertionEffectiveDate,assertionValue,assertionValueIRI,assertionValueSource,assertionUnit,assertionUnitIRI,assertionUnitSource,assertionError,assertionBy,assertionBy_fk,assertionByID,assertionProtocols,assertionProtocol_fk,assertionReferences,assertionRemarks
+,FIT-2025-000101-O00,,FIT target flower cover of patch,,,,,More than half,,,,,,,,AG-REC-0001,,,P-FIT-COUNT,,
+,FIT-2025-000102-O00,,FIT target flower cover of patch,,,,,About half,,,,,,,,AG-REC-0002,,,P-FIT-COUNT,,

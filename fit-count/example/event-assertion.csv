@@ -1,0 +1,9 @@
+assertionID,event_fk,verbatimAssertionType,assertionType,assertionTypeIRI,assertionTypeSource,assertionMadeDate,assertionEffectiveDate,assertionValue,assertionValueIRI,assertionValueSource,assertionUnit,assertionUnitIRI,assertionUnitSource,assertionError,assertionBy,assertionBy_fk,assertionByID,assertionProtocols,assertionProtocol_fk,assertionReferences,assertionRemarks
+,FIT-2025-000101,,FIT sky,,,,,All or mostly blue,,,,,,,,AG-REC-0001,,,P-FIT-COUNT,,
+,FIT-2025-000101,,FIT patch sunshine,,,,,Entirely in sunshine,,,,,,,,AG-REC-0001,,,P-FIT-COUNT,,
+,FIT-2025-000101,,FIT wind strength,,,,,Leaves moving gently all the time,,,,,,,,AG-REC-0001,,,P-FIT-COUNT,,
+,FIT-2025-000101,,FIT patch setting,,,,,Growing in a larger patch of the same flower,,,,,,,,AG-REC-0001,,,P-FIT-COUNT,,
+,FIT-2025-000102,,FIT sky,,,,,Half blue and half cloud,,,,,,,,AG-REC-0002,,,P-FIT-COUNT,,
+,FIT-2025-000102,,FIT patch sunshine,,,,,Partly in sun and partly shaded,,,,,,,,AG-REC-0002,,,P-FIT-COUNT,,
+,FIT-2025-000102,,FIT wind strength,,,,,Leaves still/moving occasionally,,,,,,,,AG-REC-0002,,,P-FIT-COUNT,,
+,FIT-2025-000102,,FIT patch setting,,,,,Growing in a larger patch of many different flowers,,,,,,,,AG-REC-0002,,,P-FIT-COUNT,,

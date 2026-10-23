@@ -1,0 +1,28 @@
+surveyTarget_fk,surveyTargetType,surveyTargetTypeIRI,surveyTargetTypeSource,surveyTargetValue,surveyTargetValueIRI,surveyTargetValueSource,surveyTargetUnit,surveyTargetUnitIRI,surveyTargetUnitSource,includeOrExclude
+ST-FIT-BUMBLEBEES,behavior,,,sitting on or landing on target flowers,,,,,,include
+ST-FIT-BUMBLEBEES,taxon,,,Bombus,,,,,,include
+ST-FIT-HONEYBEES,behavior,,,sitting on or landing on target flowers,,,,,,include
+ST-FIT-HONEYBEES,taxon,,,Apis mellifera,,,,,,include
+ST-FIT-SOLITARY-BEES,behavior,,,sitting on or landing on target flowers,,,,,,include
+ST-FIT-SOLITARY-BEES,taxon,,,Anthophila,,,,,,include
+ST-FIT-SOLITARY-BEES,taxon,,,Bombus,,,,,,exclude
+ST-FIT-SOLITARY-BEES,taxon,,,Apis mellifera,,,,,,exclude
+ST-FIT-WASPS,behavior,,,sitting on or landing on target flowers,,,,,,include
+ST-FIT-WASPS,taxon,,,Hymenoptera,,,,,,include
+ST-FIT-WASPS,taxon,,,Anthophila,,,,,,exclude
+ST-FIT-HOVERFLIES,behavior,,,sitting on or landing on target flowers,,,,,,include
+ST-FIT-HOVERFLIES,taxon,,,Syrphidae,,,,,,include
+ST-FIT-OTHER-FLIES,behavior,,,sitting on or landing on target flowers,,,,,,include
+ST-FIT-OTHER-FLIES,taxon,,,Diptera,,,,,,include
+ST-FIT-OTHER-FLIES,taxon,,,Syrphidae,,,,,,exclude
+ST-FIT-LEPIDOPTERA,behavior,,,sitting on or landing on target flowers,,,,,,include
+ST-FIT-LEPIDOPTERA,taxon,,,Lepidoptera,,,,,,include
+ST-FIT-LEPIDOPTERA,lifeStage,,,larva,,,,,,exclude
+ST-FIT-BEETLES,behavior,,,sitting on or landing on target flowers,,,,,,include
+ST-FIT-BEETLES,taxon,,,Coleoptera,,,,,,include
+ST-FIT-BEETLES,minimum body length,,,3,,,mm,,,include
+ST-FIT-SMALL-INSECTS,behavior,,,sitting on or landing on target flowers,,,,,,include
+ST-FIT-SMALL-INSECTS,taxon,,,Insecta,,,,,,include
+ST-FIT-SMALL-INSECTS,maximum body length,,,3,,,mm,,,include
+ST-FIT-OTHER-INSECTS,behavior,,,sitting on or landing on target flowers,,,,,,include
+ST-FIT-OTHER-INSECTS,taxon,,,Insecta,,,,,,include

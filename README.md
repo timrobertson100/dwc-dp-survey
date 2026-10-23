@@ -4,6 +4,13 @@ The [Darwin Core Conceptual Model](https://dwc.tdwg.org/cm/) and its implementat
 
 This repository provides case studies that demonstrate how to _structure_ common survey protocols using DwC-DP, with explanation of the design choices taken. Many are accompanied with examples.
 
+## Case studies
+
+| Protocol | Summary | Example |
+|---|---|---|
+| [UK Breeding Bird Survey (BBS)](./bbs/) | Repeated line-transect bird counts by section and distance band in 1-km squares, with habitat, weather, optional mammal recording and colony counts | [example](./bbs/example/) |
+| [UK PoMS Flower-Insect Timed Count (FIT Count)](./fit-count/) | 10-minute counts of insects visiting a 50 × 50 cm patch of a target flower, in ten insect groups | [example](./fit-count/example/) |
+
 In addition, the [dwc-dp-survey-skills.md](./dwc-dp-survey-skills.md) provides instructions to aid LLMs in helping propose structural mappings for new protocols.
 
 Contributions to this repository are very welcome through pull requests.

@@ -1,0 +1,11 @@
+surveyTarget_pk,surveyTargetID,surveyTargetDescription,isSurveyTargetFullyReported,abundanceCap,surveyTargetRemarks
+ST-FIT-BUMBLEBEES,ST-FIT-BUMBLEBEES,Bumblebees,true,,
+ST-FIT-HONEYBEES,ST-FIT-HONEYBEES,Honeybees,true,,
+ST-FIT-SOLITARY-BEES,ST-FIT-SOLITARY-BEES,Solitary bees,true,,
+ST-FIT-WASPS,ST-FIT-WASPS,Wasps (including ichneumon wasps),true,,
+ST-FIT-HOVERFLIES,ST-FIT-HOVERFLIES,Hoverflies (including 'non-typical' hoverflies),true,,
+ST-FIT-OTHER-FLIES,ST-FIT-OTHER-FLIES,Other flies,true,,
+ST-FIT-LEPIDOPTERA,ST-FIT-LEPIDOPTERA,Butterflies and moths,true,,
+ST-FIT-BEETLES,ST-FIT-BEETLES,Beetles (larger than 3mm),true,,
+ST-FIT-SMALL-INSECTS,ST-FIT-SMALL-INSECTS,Small insects (such as pollen beetles) less than 3mm long,true,,
+ST-FIT-OTHER-INSECTS,ST-FIT-OTHER-INSECTS,Other insects,true,,"Residual group: insects not placed in another group, including any the recorder was unsure of."

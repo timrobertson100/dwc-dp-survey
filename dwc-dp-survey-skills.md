@@ -23,6 +23,8 @@ Each protocol gets its own folder containing a `README.md` and, where possible, 
   d. assertions, media etc that are relevant to connect
 3. Open questions that could change the mapping
 
+Add a row for the new case study to the "Case studies" table in the repository's top-level `README.md`.
+
 Write it as a reference document: state decisions and their reasons, not a first-person narrative. Keep it concise.
 
 ## Checks against the schemas
@@ -44,8 +46,12 @@ Verify every table and field name against the ratified JSON schemas; do not rely
 - Create a Survey only where the protocol supports inferring absence. Optional components with a "did you look?" flag get a Survey only when the answer is yes. Keep the flag as an assertion either way.
 - When a protocol classifies counts into disjoint categories that are part of the design (e.g. distance bands), consider one SurveyTarget per category so that non-detection can be inferred per category.
 - Use one Occurrence per count at the finest source grain, with `organismQuantity`. Don't create one Occurrence or Organism per individual, and don't create `notDetected` rows the source doesn't contain.
+- When recording categories are not clean taxa (e.g. "solitary bees", "other flies", "other insects / unsure"), define each with include/exclude descriptors on its SurveyTarget. Give the Occurrence the smallest taxon that contains the group as `scientificName`, with the label in `verbatimIdentification`. Say clearly that the name alone is misleading without the target, and set `isLeastSpecificTargetCategoryQuantityInclusive = false` when a broad residual group doesn't include the others.
+- Organisms that define the sampling unit rather than being detected (e.g. the flower being watched, a host plant) are Occurrences without a `surveyTarget_fk`. Link the detected organisms to them with `organism-interaction` (e.g. `visited flower of`), and flag them through `hasNonTargetTaxa`.
 - Keep source codes verbatim in assertions, with their meanings in the referenced `protocol`.
+- Keep locations as given (`verbatimCoordinates`, `verbatimSRS`). Derive decimal coordinates with a `coordinateUncertaintyInMeters` that reflects the source precision (e.g. a grid square's half-diagonal). Include the time zone in `eventTime` when the protocol specifies one.
+- Don't invent a parent Event for independent records just to have a hierarchy.
 
 ## Example packages
 
-Write CSVs with all schema columns in schema order: the schemas match fields by position. Validate with `frictionless validate datapackage.json`. Frictionless requires every table referenced by a foreign key (e.g. `provenance`, `organism`) to exist, so add header-only CSVs in a scratch copy when validating. Mark example data as illustrative.
+Write CSVs with all schema columns in schema order: the schemas match fields by position. Validate with `frictionless validate datapackage.json`. Frictionless requires every table referenced by a foreign key in any included schema (e.g. `provenance`, `organism`, `geological-context`, `usage-policy`) to exist, so add header-only CSVs for those in a scratch copy when validating. Mark example data as illustrative.

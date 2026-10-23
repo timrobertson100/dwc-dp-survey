@@ -1,0 +1,3 @@
+assertionID,survey_fk,verbatimAssertionType,assertionType,assertionTypeIRI,assertionTypeSource,assertionMadeDate,assertionEffectiveDate,assertionValue,assertionValueIRI,assertionValueSource,assertionUnit,assertionUnitIRI,assertionUnitSource,assertionError,assertionBy,assertionBy_fk,assertionByID,assertionProtocols,assertionProtocol_fk,assertionReferences,assertionRemarks
+,FIT-2025-000101-SV,,FIT recorder identification experience,,,,,I am familiar with recognising the main groups of pollinating insect,,,,,,,,AG-REC-0001,,,P-FIT-COUNT,,
+,FIT-2025-000102-SV,,FIT recorder identification experience,,,,,I am familiar with identifying some wildlife (e.g. birds or butterflies) but not most pollinating insects,,,,,,,,AG-REC-0002,,,P-FIT-COUNT,,
