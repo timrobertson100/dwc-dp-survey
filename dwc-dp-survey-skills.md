@@ -54,4 +54,6 @@ Verify every table and field name against the ratified JSON schemas; do not rely
 
 ## Example packages
 
-Write CSVs with all schema columns in schema order: the schemas match fields by position. Validate with `frictionless validate datapackage.json`. Frictionless requires every table referenced by a foreign key in any included schema (e.g. `provenance`, `organism`, `geological-context`, `usage-policy`) to exist, so add header-only CSVs for those in a scratch copy when validating. Mark example data as illustrative.
+Write CSVs with all schema columns in schema order: the schemas match fields by position. Mark example data as illustrative.
+
+Validate with `frictionless validate datapackage.json`. Frictionless reports an error for any table that a schema's foreign key points to but the package doesn't include (e.g. `provenance`, `organism`), even if the key is never used. To validate, add empty copies of those tables (header row only) in a temporary copy of the package. Don't commit them, and don't describe this workaround in the case study README.

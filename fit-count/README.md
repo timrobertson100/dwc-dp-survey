@@ -150,7 +150,7 @@ The patch setting is recorded on the Event because it describes the surroundings
 - **`FIT-2025-000101`:** a garden in June, on Lavender counted as flower spikes. Five insect groups are recorded, and a photo of the flower is attached.
 - **`FIT-2025-000102`:** a verge in July, on Bramble counted as individual flowers, by a less experienced recorder. Seven groups are recorded, including small insects and "other insects".
 
-All tables follow the ratified 1.0 schemas, with all columns in schema order. The package validates with frictionless once header-only stubs are added for the tables that foreign keys point to (`provenance`, `organism`, `geological-context`, `usage-policy`).
+The tables follow the ratified DwC-DP 1.0 schemas and have been checked with a validator.
 
 ## Open questions
 

@@ -157,7 +157,7 @@ Route maps can be attached through `media` and `event-media` on the square-seaso
 - **Season mammal presence:** records with codes D, F, L and S.
 - **Habitat:** codes for all ten sections from the reconnaissance visit.
 
-The tables follow the ratified 1.0 schemas, with all columns present in schema order. The package validates with [frictionless](https://framework.frictionlessdata.io/) once header-only `provenance`, `geological-context` and `organism` tables are added. Frictionless requires every foreign-key target table to exist, even when no foreign keys point into it.
+The tables follow the ratified DwC-DP 1.0 schemas and have been checked with a validator.
 
 ## Open questions
 
