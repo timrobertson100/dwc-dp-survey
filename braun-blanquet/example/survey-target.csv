@@ -1,0 +1,6 @@
+surveyTarget_pk,surveyTargetID,surveyTargetDescription,isSurveyTargetFullyReported,abundanceCap,surveyTargetRemarks
+ST-BB-TREE-LAYER,ST-BB-TREE-LAYER,Vascular plants in the tree layer,true,,Layer boundaries are defined in protocol P-BB-RELEVE.
+ST-BB-SHRUB-LAYER,ST-BB-SHRUB-LAYER,Vascular plants in the shrub layer,true,,Layer boundaries are defined in protocol P-BB-RELEVE.
+ST-BB-HERB-LAYER,ST-BB-HERB-LAYER,Vascular plants in the herb layer,true,,Layer boundaries are defined in protocol P-BB-RELEVE.
+ST-BB-BRYOPHYTES,ST-BB-BRYOPHYTES,Bryophytes in the moss layer,true,,Linked to a relevé only when the author identified this group there.
+ST-BB-LICHENS,ST-BB-LICHENS,Lichens in the moss layer,true,,Linked to a relevé only when the author identified this group there.

@@ -1,0 +1,16 @@
+surveyTarget_fk,surveyTargetType,surveyTargetTypeIRI,surveyTargetTypeSource,surveyTargetValue,surveyTargetValueIRI,surveyTargetValueSource,surveyTargetUnit,surveyTargetUnitIRI,surveyTargetUnitSource,includeOrExclude
+ST-BB-TREE-LAYER,taxon,,,Tracheophyta,,,,,,include
+ST-BB-TREE-LAYER,vegetation layer,,,tree layer,,,,,,include
+ST-BB-SHRUB-LAYER,taxon,,,Tracheophyta,,,,,,include
+ST-BB-SHRUB-LAYER,vegetation layer,,,shrub layer,,,,,,include
+ST-BB-HERB-LAYER,taxon,,,Tracheophyta,,,,,,include
+ST-BB-HERB-LAYER,vegetation layer,,,herb layer,,,,,,include
+ST-BB-BRYOPHYTES,taxon,,,Bryophyta,,,,,,include
+ST-BB-BRYOPHYTES,taxon,,,Marchantiophyta,,,,,,include
+ST-BB-BRYOPHYTES,taxon,,,Anthocerotophyta,,,,,,include
+ST-BB-BRYOPHYTES,vegetation layer,,,moss layer,,,,,,include
+ST-BB-BRYOPHYTES,substrate,,,bark of living trees,,,,,,exclude
+ST-BB-LICHENS,taxon,,,Fungi,,,,,,include
+ST-BB-LICHENS,growthForm,,,lichen,,,,,,include
+ST-BB-LICHENS,vegetation layer,,,moss layer,,,,,,include
+ST-BB-LICHENS,substrate,,,bark of living trees,,,,,,exclude

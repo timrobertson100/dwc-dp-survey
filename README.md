@@ -12,6 +12,7 @@ This repository provides case studies that demonstrate how to _structure_ common
 | [Butterfly transect / Pollard walk (UKBMS)](./pollard-walk/) | Weekly fixed-route butterfly counts within a 5 m recording box, by section, with weather and section habitat/management | [example](./pollard-walk/example/) |
 | [Car net sampling with DNA metabarcoding (Insektmobilen)](./insektmobil/) | Roof-mounted car nets driven along fixed routes; bulk samples identified by COI metabarcoding, with material, sequences and DNA-based identifications | [example](./insektmobil/example/) |
 | [UK PoMS Flower-Insect Timed Count (FIT Count)](./fit-count/) | 10-minute counts of insects visiting a 50 × 50 cm patch of a target flower, in ten insect groups | [example](./fit-count/example/) |
+| [Braun-Blanquet relevé (vegetation plot)](./braun-blanquet/) | Complete plant species lists of a plot in a homogeneous stand, by vegetation layer, with cover-abundance and sociability values and plot header data | [example](./braun-blanquet/example/) |
 
 In addition, the [dwc-dp-survey-skills.md](./dwc-dp-survey-skills.md) provides instructions to aid LLMs in helping propose structural mappings for new protocols.
 
