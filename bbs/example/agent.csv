@@ -1,0 +1,3 @@
+agent_pk,agentID,agentType,preferredAgentName,agentRemarks
+AG-OBS-0001,,person,BBS volunteer 0001,Anonymised observer identifier.
+AG-BTO,https://ror.org/03w54w620,organization,British Trust for Ornithology,

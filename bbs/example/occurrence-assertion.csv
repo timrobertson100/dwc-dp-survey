@@ -1,0 +1,23 @@
+assertionID,occurrence_fk,verbatimAssertionType,assertionType,assertionTypeIRI,assertionTypeSource,assertionMadeDate,assertionEffectiveDate,assertionValue,assertionValueIRI,assertionValueSource,assertionUnit,assertionUnitIRI,assertionUnitSource,assertionError,assertionBy,assertionBy_fk,assertionByID,assertionProtocols,assertionProtocol_fk,assertionReferences,assertionRemarks
+,SP1234-2025-O001,,BBS mammal presence code,,,,,C,,,,,,,,AG-OBS-0001,,,P-BBS-MAMMALS,,
+,SP1234-2025-O002,,BBS mammal presence code,,,,,C,,,,,,,,AG-OBS-0001,,,P-BBS-MAMMALS,,
+,SP1234-2025-O003,,BBS detection type,,,,,S,,,,,,,,AG-OBS-0001,,,P-BBS-DETECTION,,First detected by song.
+,SP1234-2025-O004,,BBS detection type,,,,,S,,,,,,,,AG-OBS-0001,,,P-BBS-DETECTION,,First detected by song.
+,SP1234-2025-O005,,BBS detection type,,,,,V,,,,,,,,AG-OBS-0001,,,P-BBS-DETECTION,,First detected by visual.
+,SP1234-2025-O006,,BBS detection type,,,,,S,,,,,,,,AG-OBS-0001,,,P-BBS-DETECTION,,First detected by song.
+,SP1234-2025-O007,,BBS detection type,,,,,S,,,,,,,,AG-OBS-0001,,,P-BBS-DETECTION,,First detected by song.
+,SP1234-2025-O008,,BBS detection type,,,,,C,,,,,,,,AG-OBS-0001,,,P-BBS-DETECTION,,First detected by call.
+,SP1234-2025-O009,,BBS detection type,,,,,C,,,,,,,,AG-OBS-0001,,,P-BBS-DETECTION,,First detected by call.
+,SP1234-2025-O010,,BBS detection type,,,,,S,,,,,,,,AG-OBS-0001,,,P-BBS-DETECTION,,First detected by song.
+,SP1234-2025-O011,,BBS detection type,,,,,S,,,,,,,,AG-OBS-0001,,,P-BBS-DETECTION,,First detected by song.
+,SP1234-2025-O012,,BBS detection type,,,,,V,,,,,,,,AG-OBS-0001,,,P-BBS-DETECTION,,First detected by visual.
+,SP1234-2025-O013,,BBS detection type,,,,,V,,,,,,,,AG-OBS-0001,,,P-BBS-DETECTION,,First detected by visual.
+,SP1234-2025-O014,,BBS detection type,,,,,C,,,,,,,,AG-OBS-0001,,,P-BBS-DETECTION,,First detected by call.
+,SP1234-2025-O015,,BBS detection type,,,,,V,,,,,,,,AG-OBS-0001,,,P-BBS-DETECTION,,First detected by visual.
+,SP1234-2025-O016,,BBS detection type,,,,,S,,,,,,,,AG-OBS-0001,,,P-BBS-DETECTION,,First detected by song.
+,SP1234-2025-O017,,BBS detection type,,,,,C,,,,,,,,AG-OBS-0001,,,P-BBS-DETECTION,,First detected by call.
+,SP1234-2025-O029,,BBS mammal presence code,,,,,F,,,,,,,,AG-OBS-0001,,,P-BBS-MAMMALS,,
+,SP1234-2025-O030,,BBS mammal presence code,,,,,L,,,,,,,,AG-OBS-0001,,,P-BBS-MAMMALS,,
+,SP1234-2025-O031,,BBS mammal presence code,,,,,F,,,,,,,,AG-OBS-0001,,,P-BBS-MAMMALS,,
+,SP1234-2025-O032,,BBS mammal presence code,,,,,S,,,,,,,,AG-OBS-0001,,,P-BBS-MAMMALS,,
+,SP1234-2025-O033,,BBS mammal presence code,,,,,D,,,,,,,,AG-OBS-0001,,,P-BBS-MAMMALS,,

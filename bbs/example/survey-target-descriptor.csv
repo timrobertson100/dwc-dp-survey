@@ -1,0 +1,26 @@
+surveyTarget_fk,surveyTargetType,surveyTargetTypeIRI,surveyTargetTypeSource,surveyTargetValue,surveyTargetValueIRI,surveyTargetValueSource,surveyTargetUnit,surveyTargetUnitIRI,surveyTargetUnitSource,includeOrExclude
+ST-BBS-BAND-1,taxon,,,Aves,,,,,,include
+ST-BBS-BAND-1,lifeStage,,,juvenile,,,,,,exclude
+ST-BBS-BAND-1,minimum perpendicular distance from transect line,,,0,,,m,,,include
+ST-BBS-BAND-1,maximum perpendicular distance from transect line,,,25,,,m,,,include
+ST-BBS-BAND-1,behavior,,,in flight,,,,,,exclude
+ST-BBS-BAND-2,taxon,,,Aves,,,,,,include
+ST-BBS-BAND-2,lifeStage,,,juvenile,,,,,,exclude
+ST-BBS-BAND-2,minimum perpendicular distance from transect line,,,25,,,m,,,include
+ST-BBS-BAND-2,maximum perpendicular distance from transect line,,,100,,,m,,,include
+ST-BBS-BAND-2,behavior,,,in flight,,,,,,exclude
+ST-BBS-BAND-3,taxon,,,Aves,,,,,,include
+ST-BBS-BAND-3,lifeStage,,,juvenile,,,,,,exclude
+ST-BBS-BAND-3,minimum perpendicular distance from transect line,,,100,,,m,,,include
+ST-BBS-BAND-3,behavior,,,in flight,,,,,,exclude
+ST-BBS-BAND-F,taxon,,,Aves,,,,,,include
+ST-BBS-BAND-F,lifeStage,,,juvenile,,,,,,exclude
+ST-BBS-BAND-F,behavior,,,in flight,,,,,,include
+ST-BBS-MAMMALS,taxon,,,Lepus europaeus,,,,,,include
+ST-BBS-MAMMALS,taxon,,,Oryctolagus cuniculus,,,,,,include
+ST-BBS-MAMMALS,taxon,,,Sciurus carolinensis,,,,,,include
+ST-BBS-MAMMALS,taxon,,,Vulpes vulpes,,,,,,include
+ST-BBS-MAMMALS,taxon,,,Talpa europaea,,,,,,include
+ST-BBS-MAMMALS,taxon,,,Meles meles,,,,,,include
+ST-BBS-COLONY,taxon,,,Aves,,,,,,include
+ST-BBS-COLONY,nesting habit,,,colonial,,,,,,include

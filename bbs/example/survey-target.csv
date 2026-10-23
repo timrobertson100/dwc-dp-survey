@@ -1,0 +1,7 @@
+surveyTarget_pk,surveyTargetID,surveyTargetDescription,isSurveyTargetFullyReported,abundanceCap,surveyTargetRemarks
+ST-BBS-BAND-1,ST-BBS-BAND-1,"Adult birds first noted in distance band 1 (0-25 m perpendicular to the transect line), not in flight under BBS rules.",true,,Positively identified current-year juveniles excluded; birds of unknown age are counted.
+ST-BBS-BAND-2,ST-BBS-BAND-2,"Adult birds first noted in distance band 2 (25-100 m perpendicular to the transect line), not in flight under BBS rules.",true,,Positively identified current-year juveniles excluded; birds of unknown age are counted.
+ST-BBS-BAND-3,ST-BBS-BAND-3,"Adult birds first noted in distance band 3 (100-∞ m perpendicular to the transect line), not in flight under BBS rules.",true,,Positively identified current-year juveniles excluded; birds of unknown age are counted.
+ST-BBS-BAND-F,ST-BBS-BAND-F,"Adult birds recorded in flight only (band F), at any distance, under BBS rules.",true,,Positively identified current-year juveniles excluded; birds of unknown age are counted.
+ST-BBS-MAMMALS,ST-BBS-MAMMALS,Live individuals of the easily observable mammal species listed in the BBS mammal instructions (abridged here).,true,,Only valid where the observer declared they looked for mammals. Small mammals and bats are not targeted.
+ST-BBS-COLONY,ST-BBS-COLONY,Breeding pairs of colonially nesting birds anywhere in the 1-km square.,false,,"The protocol does not enumerate which species count as colonial, so absence of a colony is not inferred."
